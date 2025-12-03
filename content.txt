@@ -1,0 +1,16 @@
+1. Class(blueprint) and Object(instance of Class)
+2. Attributes(data or characteristics or what it has) of the Object.
+    > called automatically as soon as an objets is created if it is inside the __init__ constructor.
+3. Methods(functionalities or what it can do) of the Object.
+4. Dunder Methods/Magic Methods
+    > A special Method that let objects behave like
+    built-in types and allow Python to call them automatically in certain situations.
+    eg. (__init__(), __str__() etc. )
+5. Why Python is called an OOP language?
+    > Python is called an OOP language because almost everything in Python is an object
+    created from a class. (eg. int, str, list etc.)
+6. Advantages of OOP:
+    > Using it we can create our own datatypes.
+    > code reusability
+    > Modularity
+    > Debugging
