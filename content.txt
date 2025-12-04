@@ -14,3 +14,7 @@
     > code reusability
     > Modularity
     > Debugging
+7.  made a basic OOP project, named "proj_1.py".
+    > encapsulation
+    > getter and setter
+    > static method
