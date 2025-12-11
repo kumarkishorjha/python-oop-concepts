@@ -1,9 +1,16 @@
 class ChatBook:
     def __init__(self):
+        self.__name = "default name" # private attribute(encapsulation)
         self.username = ""
         self.password = ""
         self.loggedin = False
         self.menue()
+        
+    def get_name(self):     # getter 
+        return self.__name
+    
+    def set_name(self, new_name):  # setter
+        self.__name = new_name
         
     def menue(self):
         user_input = input("""Welcome to the ChatBook! How would you like to proceed?

@@ -14,7 +14,18 @@
     > code reusability
     > Modularity
     > Debugging
-7.  made a basic OOP project, named "proj_1.py".
-    > encapsulation
-    > getter and setter
-    > static method
+7.  made a basic OOP project, named "proj_1.py".  
+8. Use of self as a first parameter inside methods and __init__ constructor?
+    > self is nothing but the object itself which is used to access the attributes and methods
+    > of the current object (instance) created from the class.
+9. Encapsulation:- using it we can hide both the attribute and method which we don't want to expose.
+    we make it private using _ or __ (eg:- self.__password = password or def __password(self))
+    we can access it using (obj._classname__attribute). it is not recommended because it breaks
+    the idea of encapsulation. Instead we use getter and setter.
+10. getter and setter:-
+    A getter method is used to retrieve (get) the value of a private attribute.
+    A setter method is used to update (set) the value of a private attribute, often with validation.
+11. static method:-
+    Static method is a method inside a class that works independently without using
+    the object (self) or the class (cls). You define it using @staticmethod decorator.
+12. Inheritance:-
